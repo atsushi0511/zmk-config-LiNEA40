@@ -58,7 +58,7 @@
         layers = <SCROLL>;
         input-processors =
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            //スクロール方向を逆転,,,,,,,,,,,
+            //スクロール方向を逆転,,,,,,,,,,,,
             <&zip_xy_to_scroll_mapper>;
     };
 };
@@ -140,10 +140,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E               &kp R                  &kp T                                               &kp Y        &kp U  &kp I             &kp O             &mt MINUS P
-&kp A             &kp S         &kp D               &kp F                  &kp G                                               &kp H        &kp J  &kp K             &kp L             &kp SINGLE_QUOTE
-&mt LEFT_SHIFT Z  &kp X         &kp C               &kp V                  &kp B                                               &kp N        &kp M  &kp COMMA         &kp DOT           &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &mt LEFT_ALT GRAVE  &lt 3 INTERNATIONAL_5  &lt 2 SPACE  &lt 3 INT_MUHENKAN    &lt 4 BACKSPACE  &lt 5 ENTER         &lt 6 INT_HENKAN  &kp LEFT_BRACKET  &kp RIGHT_SHIFT
+&kp Q             &kp W         &kp E               &kp R                  &kp T                                                  &kp Y        &kp U  &kp I             &kp O             &mt MINUS P
+&kp A             &kp S         &kp D               &kp F                  &kp G                                                  &kp H        &kp J  &kp K             &kp L             &kp SINGLE_QUOTE
+&mt LEFT_SHIFT Z  &kp X         &kp C               &kp V                  &kp B                                                  &kp N        &kp M  &kp COMMA         &kp DOT           &kp SLASH
+&kp LCTRL         &kp LEFT_WIN  &mt LEFT_ALT GRAVE  &lt 3 INTERNATIONAL_5  &lt 2 SPACE  &lt 3 INTERNATIONAL_4    &lt 4 BACKSPACE  &lt 5 ENTER         &lt 6 INT_HENKAN  &kp LEFT_BRACKET  &kp RIGHT_SHIFT
             >;
 
             sensor-bindings = <&mouse_scrl SCRL_DOWN SCRL_UP>;
@@ -163,7 +163,7 @@
 &kp ESCAPE        &kp LC(LG(LEFT_ARROW))  &kp UP_ARROW  &kp LC(LG(RIGHT_ARROW))  &trans                        &kp LC(W)     &trans     &kp UP_ARROW    &trans           &kp MINUS
 &kp TAB           &kp LEFT_ARROW          &kp DOWN      &kp RIGHT_ARROW          &trans                        &kp LA(LEFT)  &mkp LCLK  &kp UP_ARROW    &mkp RCLK        &kp LA(RIGHT)
 &kp LEFT_ALT      &kp PAGE_DOWN           &kp END       &kp PAGE_UP              &trans                        &kp UNDER     &kp LEFT   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp ASTERISK
-&kp LEFT_CONTROL  &trans                  &trans        &trans                   &trans  &trans    &kp DELETE  &kp NUMBER_0             &kp DOT         &kp ENTER        &kp QUESTION
+&kp LEFT_CONTROL  &kp LEFT_ALT            &trans        &trans                   &trans  &trans    &kp DELETE  &kp NUMBER_0             &kp DOT         &kp ENTER        &kp QUESTION
             >;
         };
 
