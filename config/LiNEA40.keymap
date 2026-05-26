@@ -54,6 +54,9 @@
 };
 
 &trackball_listener {
+    default_move {
+        input-processors = <&zip_xy_scaler 3 4>;
+    };
     scroller {
         layers = <SCROLL>;
         input-processors =
