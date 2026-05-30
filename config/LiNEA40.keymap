@@ -12,7 +12,7 @@
 #define MOUSE 1
 #define MARK 2
 #define CURSOR 3
-#define FUNCTION 4
+#define FUNCTION 
 #define SCROLL 3
 #define WIRELESS 6
 
@@ -54,9 +54,7 @@
 };
 
 &trackball_listener {
-    default_move {
-        input-processors = <&zip_xy_scaler 3 4>;
-    };
+    input-processors = <&zip_xy_scaler 3 4>;
     scroller {
         layers = <SCROLL>;
         input-processors =
