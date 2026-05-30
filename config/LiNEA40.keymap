@@ -12,7 +12,7 @@
 #define MOUSE 1
 #define MARK 2
 #define CURSOR 3
-#define FUNCTION 
+#define FUNCTION 4
 #define SCROLL 3
 #define WIRELESS 6
 
